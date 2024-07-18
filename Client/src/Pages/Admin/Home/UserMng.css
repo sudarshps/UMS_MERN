@@ -1,0 +1,99 @@
+.admin-panel {
+    background-image: url('/admin-usermng.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 100vh;
+    overflow: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+
+  .admin-panel h1{
+    margin-bottom: 50px;
+  }
+  
+  .search-bar {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .user-list {
+    width: 100%;
+    border-collapse: collapse;
+
+  }
+  
+  .user-list th, .user-list td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    justify-content: center;
+  }
+  
+  .user-list th {
+    background-color: grey;
+  }
+  
+  .user-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .action-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit-button {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .create-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .create-button:hover {
+    background-color: #218838;
+  }
+  
+
+  .logout{
+    cursor: pointer;
+    
+  }
